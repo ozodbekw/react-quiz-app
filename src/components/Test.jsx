@@ -53,7 +53,7 @@ function Test({ questions: { questions, title, color, icon } }) {
           color={color}
           icon={icon}
           correctAnswerCount={correctAnswerCount}
-          questionsLenght={questions.length}
+          questions={questions}
         />
       </>
     );

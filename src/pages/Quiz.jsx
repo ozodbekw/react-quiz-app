@@ -15,7 +15,7 @@ function Quiz() {
     isPending,
     error,
   } = useFetch(
-    `https://online-json-server-api.up.railway.app/project/66589e8316aab5687eae3b28/quizzes?title=${title}`
+    `https://json-api.uz/api/project/my-test-app/quizzes?title=${title}`
   );
 
   useEffect(() => {
@@ -23,11 +23,11 @@ function Quiz() {
   }, [title]);
 
   return (
-    <div className="quiz-container container">
+    <section className="quiz-container container">
       {isPending && <h3>Loading...</h3>}
       {error && <h3>Something went wrong</h3>}
       {quizzes && <Test questions={quizzes.data[0]} />}
-    </div>
+    </section>
   );
 }
 

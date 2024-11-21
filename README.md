@@ -2,16 +2,6 @@
 
 This is a fun quiz app using the React library, a very useful project for beginners. I recommend that everyone try this project on their own. If you have trouble doing it, you can see my solution. 🎉
 
-## Acknowledgements
-
-- [Figma](https://www.frontendmentor.io/challenges/frontend-quiz-app-BE7xkzXQnU)
-- [Online JSON-SERVER](https://online-json-server.vercel.app/)
-
-## Authors
-
-- [@akhrorsoliev](https://www.github.com/akhrorsoliev)
-- [@yousufdev](https://github.com/Yusufdev1998)
-
 ## Appendix
 
 I will be uploading this project in full on youtube in its fully completed state. This is my youtube channel and other social links.

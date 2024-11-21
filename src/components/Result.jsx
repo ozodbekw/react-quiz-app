@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Result({ title, color, icon, correctAnswerCount, questionsLength }) {
+function Result({ title, color, icon, correctAnswerCount, questions }) {
   return (
     <div className="test-container result-container">
       <div className="home-content">
@@ -13,12 +13,12 @@ function Result({ title, color, icon, correctAnswerCount, questionsLength }) {
         <div className="test-completed-body">
           <div className="menu-item header-logo">
             <figure style={{ backgroundColor: color }}>
-              <img src={`${icon}`} alt="" />
+              <img src={`.${icon}`} alt="" />
             </figure>
             <span>{title}</span>
           </div>
           <div className="big-text">{correctAnswerCount}</div>
-          <p>out of {questionsLength}</p>
+          <p>out of {questions.length}</p>
         </div>
         <Link className="btn" to="/">
           Play Again

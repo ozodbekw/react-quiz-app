@@ -6,13 +6,15 @@ function MenuLinks() {
     "https://json-api.uz/api/project/my-test-app/quizzes"
   );
 
+  console.log(data);
+
   return (
     <div>
       {isPending && <p>Loading...</p>}
       {error && <p>Error: {error.message}</p>}
       <div className="menu-list">
         {data &&
-          data.map((item) => {
+          data.data.map((item) => {
             return (
               <Link
                 key={item.title}

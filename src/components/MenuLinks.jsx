@@ -3,7 +3,7 @@ import { useFetch } from "../hooks/useFetch";
 
 function MenuLinks() {
   const { data, isPending, error } = useFetch(
-    "https://json-api.uz/api/project/my-test-app/quizzes"
+    "https://json-api.uz/api/project/f-quiz/quizzes"
   );
 
   console.log(data);

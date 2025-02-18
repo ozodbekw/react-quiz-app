@@ -6,6 +6,8 @@ function MenuLinks() {
     "https://json-api.uz/api/project/f-quiz/quizzes"
   );
 
+  console.log(data);
+
   return (
     <div>
       {isPending && <p>Loading...</p>}

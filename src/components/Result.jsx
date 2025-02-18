@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 function Result({ title, color, icon, correctAnswerCount, questions }) {
+  console.log(questions);
   return (
     <div className="test-container result-container">
       <div className="home-content">

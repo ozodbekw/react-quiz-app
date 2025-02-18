@@ -6,10 +6,9 @@ This is a fun quiz app using the React library, a very useful project for beginn
 
 I will be uploading this project in full on youtube in its fully completed state. This is my youtube channel and other social links.
 
-- [Youtube](https://www.github.com/akhrorsoliev)
-- [Telegram](https://www.t.me/akhror_web)
-- [Instagram](https://www.t.me/@akhror_web)
-- [LinkedIn](https://www.linkedin.com/in/akhrorsoliev)
+- [Youtube](https://www.github.com/ozodbek_in_web)
+- [Telegram](https://www.t.me/ozodbek_in_web)
+- [LinkedIn](https://www.linkedin.com/in/ozodbek-tursunaliyev)
 
 ## Demo
 
@@ -33,7 +32,7 @@ I will be uploading this project in full on youtube in its fully completed state
 Clone the project
 
 ```bash
-  git clone https://github.com/AkhrorSoliev/frontend-quiz-app
+  git clone https://github.com/ozodbekw/react-quiz-app
 ```
 
 Go to the project directory

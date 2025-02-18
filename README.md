@@ -6,7 +6,7 @@ This is a fun quiz app using the React library, a very useful project for beginn
 
 I will be uploading this project in full on youtube in its fully completed state. This is my youtube channel and other social links.
 
-- [Youtube](https://www.github.com/ozodbek_in_web)
+- [Youtube](https://www.youtube.com/ozodbek_in_web)
 - [Telegram](https://www.t.me/ozodbek_in_web)
 - [LinkedIn](https://www.linkedin.com/in/ozodbek-tursunaliyev)
 
